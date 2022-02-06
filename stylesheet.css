@@ -25,5 +25,5 @@ section.goHome{
 }
 
 ul {
-    list-style: square inside url("sqpurple.gif");
+    list-style: square inside;
   }
