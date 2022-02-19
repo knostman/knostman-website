@@ -5,50 +5,50 @@
     <title>
         Welcome to my Edtech Website.
     </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="geogebraExamples.html">Geogebra Examples</a></li>
-            <li><a href="http://wolfware.ncsu.edu">WolfWare</a></li>
-            <li><a href="http://www.github.com">GitHub</a></li>
-    </nav>
-    <h1>
-        Welcome to my Edtech Website
-    </h1>
-    <section>
-        <h2>
-            Author Bio: Maggie Knostman
-        </h2>
-        <p>
-            I'm a current MAT student at North Carolina State University.
-            I'm pursuing my degree in math education and plan to teach at the high school level after I graduate in
-            December
-            of this year.
-        </p>
-    </section>
+    <div class="nav py-2">
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="index.html">Home</a>
+        </div>
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="geogebraExamples.html">Geogebra Examples</a>
+        </div>
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="bio.html">About Ms. Knostman</a>
+        </div>
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="http://www.github.com">GitHub</a>
+        </div>
+    </div>
+    <p class="fs-1 text-center">
+        Welcome to Ms. Knostman's Website
+    </p>
     <section id="resources">
-        <h3>
-            A few of my favorite Edtech Resources:
-        </h3>
+        <p class="fs-3">
+            Here are a few of my favorite Edtech Resources:
+        </p>
         <ul>
             <li>
-                <strong><a href="https://www.geogebra.org/">GeoGebra</a></strong>
+                <strong><a class="text-reset" href="https://www.geogebra.org/">GeoGebra</a></strong>
                 <ul>
                     <li>
                         I enjoy using GeoGebra for geometric investigations.
                         It makes creating geometric constructions easy and manipulatable.
                     </li>
                     <li>
-                        <a href="geogebraExamples.html">Here are some examples of what you can do in Geogebra.</a>
+                        <a class="text-reset" href="geogebraExamples.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click to see a gallery of GeoGebra Examples">
+                            There are lots of ways to use Geogebra
+                        </a>
                     </li>
                 </ul>
             </li>
             <li>
-                <strong><a href="https://phet.colorado.edu/">PhET Simulations</a></strong>
+                <strong><a class="text-reset" href="https://phet.colorado.edu/">PhET Simulations</a></strong>
                 <ul>
                     <li>
                         PhET Simulations has several free, online simulations that students can manipulate and conduct
@@ -58,7 +58,7 @@
                 </ul>
             </li>
             <li>
-                <strong><a href="https://www.wolframalpha.com/">Wolfram Alpha</a></strong>
+                <strong><a class="text-reset" href="https://www.wolframalpha.com/">Wolfram Alpha</a></strong>
                 <ul>
                     <li>
                         Wolfram Alpha is a free online resource that can both be used as a reference and as an online
@@ -67,7 +67,7 @@
                 </ul>
             </li>
             <li>
-                <strong><a href="https://www.desmos.com/">Desmos</a></strong>
+                <strong><a class="text-reset" href="https://www.desmos.com/">Desmos</a></strong>
                 <ul>
                     <li>
                         Desmos is an online graphing calculator that also allows teachers to create interactive lessons
@@ -77,6 +77,12 @@
             </li>
         </ul>
     </section>
+    <div class="py-5 position-relative">
+        <a href="#" class="btn btn-primary  position-absolute bottom-0 end-0 m-1">Back to Top</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

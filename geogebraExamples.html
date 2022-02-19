@@ -5,38 +5,95 @@
     <title>
         Geogebra Examples
     </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="geogebraExamples.html">Geogebra Examples</a></li>
-            <li><a href="http://wolfware.ncsu.edu">WolfWare</a></li>
-            <li><a href="http://www.github.com">GitHub</a></li>
-    </nav>
-    <h1>
-        Here are some example images from Geogebra.
-    </h1>
-    <section>
-        <h2>
-            Parallelogram with angle measurements.
-        </h2>
-        <img src="img/parallelogram.png" alt="Parallelogram in Geogebra" />
-        <h2>
-            Circle with quadrilateral constructed inside it.
-        </h2>
-        <img src="img/circle.png" alt="Circle in Geogebra" />
-        <h2>
-            Angle with its bisector.
-        </h2>
-        <img src="img/angleBisector.png" alt="Angle Bisector in Geogebra" />
-    </section>
-    <nav class="goHome">
-        <a href="index.html">Click here to return to the home page.</a>
-    </nav>
-
+    <div class="nav py-2">
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="index.html">Home</a>
+        </div>
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="geogebraExamples.html">Geogebra Examples</a>
+        </div>
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="bio.html">About Ms. Knostman</a>
+        </div>
+        <div class="col-xs-12 col-md-3 text-center">
+            <a class="px-5" href="http://www.github.com">GitHub</a>
+        </div>
+    </div>
+    <p class="fs-1 text-center">
+        Examples of the things you can do with GeoGebra
+    </p>
+    <div class="images m-3">
+        <div class="row">
+            <div class="col-md-4">
+                <p class="fs-3 text-center">
+                    Parallelogram with Angle Measurements
+                <p>
+            </div>
+            <div class="col-md-4">
+                <p class="fs-3 text-center">
+                    Circle with Quadrilateral Inscribed
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="fs-3 text-center">
+                    Angle with its Bisector
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/parallelogram.png" class="card-img-top" alt="Parallelogram in Geogebra" />
+                    <div class="card-body">
+                        <p class="card-text">You can measure angles, contruct polygons, and perform transformations on
+                            objects in GeoGebra. In this example, a parallelogram was constructed by first adding the
+                            line
+                            segment AB, then rotating B around A and an arbitrary other point C by the same angle. When
+                            the
+                            distance between that C and the intersection of the lines connecting A and C with their
+                            respective rotations of B is equal to AB.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/circle.png" class="card-img-top" alt="Circle in Geogebra" />
+                    <div class="card-body">
+                        <p class="card-text">In GeoGebra, you can draw polygons or lines and then add points onto the
+                            perimeter or line. Even if you move other elements or change the size of line segments,
+                            those points will stay on the line or curve they were constructed on. In this example, A is
+                            the center of the circle, and B and C are points on the perimeter of the circle. Even if we
+                            changed the size of the circle or moved B or C around, both points would remain on the
+                            perimeter of the circle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/angleBisector.png" alt="Angle Bisector in Geogebra" />
+                    <div class="card-body">
+                        <p class="card-text">There are some things you do so often in geometry that GeoGebra gives you
+                            tools that make it easier. One of those tools is the angle bisector tool. In this example,
+                            we used the angle bisector tool on angle ABC to find its bisector, which is AD. If we
+                            changed the size of angle ABC, the point D would move as well so that AD is always the
+                            bisector of ABC. This and other tools are very useful when making contructions in GeoGebra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 position-relative">
+        <a href="index.html" class="btn btn-primary  position-absolute bottom-0 end-0 m-1">Back Home</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
