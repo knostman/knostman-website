@@ -6,7 +6,6 @@ $(document).ready(function () {
     fact.done(function (response) {
 
         //Picture
-        // $("#astronomyPicture").show();
         $("#astronomyPicture").attr("src", response.url);
         $("#astronomyPicture").attr("alt", response.title);
 
