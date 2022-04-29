@@ -4,12 +4,11 @@ $(document).ready(function () {
 
     //Function that runs when the API runs successfully
     fact.done(function (response) {
-        //Set the image
-        console.log(response);
 
         //Picture
         // $("#astronomyPicture").show();
         $("#astronomyPicture").attr("src", response.url);
+        $("#astronomyPicture").attr("alt", response.title);
 
         //Title
         $("#astronomyPictureTitle").text(response.title);
