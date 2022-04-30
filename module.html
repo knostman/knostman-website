@@ -11,77 +11,83 @@
 </head>
 
 <body>
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="geogebraExamples.html">Geogebra Examples</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="bio.html">About Ms. Knostman</a>
-            </dli>
-        <li class="nav-item">
-            <a class="nav-link active" href="module.html">Module 1 Practice Quiz</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="astronomyPictureOfTheDay.html">Astronomy Picture of the Day</a>
-        </li>
-    </ul>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="geogebraExamples.html">Geogebra Examples</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bio.html">About Ms. Knostman</a>
+                </dli>
+            <li class="nav-item">
+                <a class="nav-link active" href="module.html">Module 1 Practice Quiz</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="astronomyPictureOfTheDay.html">Astronomy Picture of the Day</a>
+            </li>
+        </ul>
+    </nav>
     <h1 class="fs-1 text-center">
         Module 1 Practice Quiz
     </h1>
-    <section id="practice-quiz" class="px-3">
-        <div id="question1" class="mx-2">
-            <p class='question'>
-                1. Which variable represents the slope in Slope Intercept Form? y=mx+b $$ y=mx+b $$
-            </p>
-            <button id="toggler1" class="btn btn-large btn-primary m-3">Reveal Answer</button>
-            <div id="answer1" class="hidden card m-2">
-                <div class="card-body">
-                    The m represents slope. $$ m $$
+    <main>
+        <section id="practice-quiz" class="px-3">
+            <div id="question1" class="mx-2">
+                <p class='question'>
+                    1. Which variable represents the slope in Slope Intercept Form? y=mx+b $$ y=mx+b $$
+                </p>
+                <button id="toggler1" class="btn btn-large btn-primary m-3">Reveal Answer</button>
+                <div id="answer1" class="hidden card m-2">
+                    <div class="card-body">
+                        The m represents slope. $$ m $$
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="question2" class="mx-2">
-            <p class='question'>
-                2. How would this Standard Form equation be written in Slope Intercept Form? y - 2 = 3 ( x + 1) $$ y - 2
-                = 3 ( x + 1) $$
-            </p>
-            <button id="toggler2" class="btn btn-large btn-primary m-3">Reveal Answer</button>
-            <div id="answer2" class="hidden card m-2">
-                <div class="card-body">
-                    Answer: y = 3 x + 5 $$ y = 3 x + 5 $$
+            <div id="question2" class="mx-2">
+                <p class='question'>
+                    2. How would this Standard Form equation be written in Slope Intercept Form? y - 2 = 3 ( x + 1) $$ y
+                    - 2
+                    = 3 ( x + 1) $$
+                </p>
+                <button id="toggler2" class="btn btn-large btn-primary m-3">Reveal Answer</button>
+                <div id="answer2" class="hidden card m-2">
+                    <div class="card-body">
+                        Answer: y = 3 x + 5 $$ y = 3 x + 5 $$
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="question3" class="mx-2">
-            <p class='question'>
-                3. What is the slope of the following equation? y = -3 x + 2 $$ y = -3 x + 2 $$
-            </p>
-            <form class="form-inline">
-                <label class="sr-only" for="answer">Answer:</label>
-                <input type="text" class="form-control mb-2 mr-sm-2" id="answer" placeholder="Enter the Slope" />
+            <div id="question3" class="mx-2">
+                <p class='question'>
+                    3. What is the slope of the following equation? y = -3 x + 2 $$ y = -3 x + 2 $$
+                </p>
+                <form class="form-inline">
+                    <label class="sr-only" for="answer">Answer:</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="answer" placeholder="Enter the Slope" />
 
-                <button id="check-answer" type="button" class="btn btn-primary m-3">Check Answer</button>
-            </form>
-            <div id="correct-answer" class="hidden card m-2">
-                <div class="card-body">
-                    Correct! Well done!
+                    <button id="check-answer" type="button" class="btn btn-primary m-3">Check Answer</button>
+                </form>
+                <div id="correct-answer" class="hidden card m-2">
+                    <div class="card-body">
+                        Correct! Well done!
+                    </div>
                 </div>
-            </div>
-            <div id="wrong-answer" class="hidden card m-2">
-                <div class="card-body">
-                    Not quite! Try again!
+                <div id="wrong-answer" class="hidden card m-2">
+                    <div class="card-body">
+                        Not quite! Try again!
+                    </div>
                 </div>
+
             </div>
 
-        </div>
-
-    </section>
+        </section>
+    </main>
     <footer>
-        <div class="py-5 position-relative" id="footer">
-            <a href="index.html" class="btn btn-primary  position-absolute bottom-0 end-0 m-1">Back Home</a>
+        <div id="footer">
+            <a href="index.html" class="btn btn-primary backHome">Back Home</a>
+            <p class="text-center w-100 my-0">&copy; 2022 Maggie Knostman</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

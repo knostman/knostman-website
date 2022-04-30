@@ -1,4 +1,4 @@
-.nav{
+.nav {
     background-color: #cc0000;
     padding: 5px 20px 0px 20px;
     margin-bottom: 20px;
@@ -12,4 +12,32 @@
 .hidden {
     display: none;
 }
+
+
+/* Make footer stick to bottom, but not overlap main content when screen size is small */
+body{ 
+    height:100vh; 
+    margin:0; 
+}
+
+footer{ 
+    min-height:50px; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.backHome {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+
 
